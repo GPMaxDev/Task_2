@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f8e0a54-443b-46a1-a8f9-d76cd6d077a1" name="Changes" comment="subtask2 dva zadaniya">
-      <change afterPath="$PROJECT_DIR$/src/SubTask3.java" afterDir="false" />
+    <list default="true" id="8f8e0a54-443b-46a1-a8f9-d76cd6d077a1" name="Changes" comment="subtask2 third task comleted, but need realization like static metod">
+      <change afterPath="$PROJECT_DIR$/src/ua/com/sourceit/nebotov/subtusk4/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/com/sourceit/nebotov/subtusk4/ArrayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/com/sourceit/nebotov/subtusk4/Container.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,14 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/JavaProjekts/sandBox",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaProjekts/sandBox&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SubTask3">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -78,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672415864258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="subtask2 third task comleted, but need realization like static metod">
+      <created>1672505417878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672505417878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="subtask2 dva zadaniya" />
-    <option name="LAST_COMMIT_MESSAGE" value="subtask2 dva zadaniya" />
+    <MESSAGE value="subtask2 third task comleted, but need realization like static metod" />
+    <option name="LAST_COMMIT_MESSAGE" value="subtask2 third task comleted, but need realization like static metod" />
   </component>
 </project>
