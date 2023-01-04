@@ -132,7 +132,8 @@ public class ArrayImpl  implements Array {
         @Override
         public void remove() {
             this.remove();
-            //Iterator.super.remove();
+            //Iterator.super.remove(); ????? Проверить может тут не remove() a clear()
+            // большой Вопрос тут он должен удалять последний елемент візваній итератором
         }
 
 
