@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f8e0a54-443b-46a1-a8f9-d76cd6d077a1" name="Changes" comment="subtask2 third task comleted, but need realization like static metod">
-      <change afterPath="$PROJECT_DIR$/src/ua/com/sourceit/nebotov/subtusk4/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/com/sourceit/nebotov/subtusk4/ArrayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/com/sourceit/nebotov/subtusk4/Container.java" afterDir="false" />
+    <list default="true" id="8f8e0a54-443b-46a1-a8f9-d76cd6d077a1" name="Changes" comment="subtusk4 vsya podgotovitelnaya rabota, ostalos realizaciya">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/com/sourceit/nebotov/subtusk4/ArrayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/com/sourceit/nebotov/subtusk4/ArrayImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubTask3">
+  <component name="RunManager" selected="Application.ArrayImpl">
+    <configuration name="ArrayImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.com.sourceit.nebotov.subtusk4.ArrayImpl" />
+      <module name="Task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.com.sourceit.nebotov.subtusk4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Task2" />
@@ -60,8 +72,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubTask3" />
+        <item itemvalue="Application.ArrayImpl" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SubTask3" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672505417878</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="subtusk4 vsya podgotovitelnaya rabota, ostalos realizaciya">
+      <created>1672682878993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672682878993</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="subtask2 dva zadaniya" />
     <MESSAGE value="subtask2 third task comleted, but need realization like static metod" />
-    <option name="LAST_COMMIT_MESSAGE" value="subtask2 third task comleted, but need realization like static metod" />
+    <MESSAGE value="subtusk4 vsya podgotovitelnaya rabota, ostalos realizaciya" />
+    <option name="LAST_COMMIT_MESSAGE" value="subtusk4 vsya podgotovitelnaya rabota, ostalos realizaciya" />
   </component>
 </project>
