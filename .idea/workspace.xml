@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f8e0a54-443b-46a1-a8f9-d76cd6d077a1" name="Changes" comment="subtusk4 vsya podgotovitelnaya rabota, ostalos realizaciya">
+    <list default="true" id="8f8e0a54-443b-46a1-a8f9-d76cd6d077a1" name="Changes" comment="subtusk4 вроде все работает, надо перепроверить еще все функции и пройтись по всем методам которые могут выкинуть java.util.NoSuchElementException">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/com/sourceit/nebotov/subtusk4/ArrayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/com/sourceit/nebotov/subtusk4/ArrayImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672682878993</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="subtusk4 вроде все работает, надо перепроверить еще все функции и пройтись по всем методам которые могут выкинуть java.util.NoSuchElementException">
+      <created>1672857478761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672857478761</updated>
+    </task>
+    <task id="LOCAL-00005" summary="subtusk4 вроде все работает, надо перепроверить еще все функции и пройтись по всем методам которые могут выкинуть java.util.NoSuchElementException">
+      <created>1672857720291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672857720291</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +139,17 @@
     <MESSAGE value="subtask2 dva zadaniya" />
     <MESSAGE value="subtask2 third task comleted, but need realization like static metod" />
     <MESSAGE value="subtusk4 vsya podgotovitelnaya rabota, ostalos realizaciya" />
-    <option name="LAST_COMMIT_MESSAGE" value="subtusk4 vsya podgotovitelnaya rabota, ostalos realizaciya" />
+    <MESSAGE value="subtusk4 вроде все работает, надо перепроверить еще все функции и пройтись по всем методам которые могут выкинуть java.util.NoSuchElementException" />
+    <option name="LAST_COMMIT_MESSAGE" value="subtusk4 вроде все работает, надо перепроверить еще все функции и пройтись по всем методам которые могут выкинуть java.util.NoSuchElementException" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

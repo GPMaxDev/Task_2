@@ -1,9 +1,7 @@
 package ua.com.sourceit.nebotov.subtusk4;
-
 import java.util.ArrayList;
 import java.util.Iterator;
-
-
+import java.util.NoSuchElementException;
 
 public class ArrayImpl  implements Array {
 
@@ -20,13 +18,21 @@ public class ArrayImpl  implements Array {
 
 
         System.out.println(arrayImplements.objectArrayList.get(1));
-        System.out.println(arrayImplements.indexOf("c"));
+        System.out.println(arrayImplements.indexOf("u"));
         System.out.println(arrayImplements.iterator().hasNext()); // ?? iterator()??
+        System.out.println(arrayImplements.iterator().next());
+        //Object obj1 = arrayImplements.iterator().next();
+        //arrayImplements.iterator().remove();
         System.out.println(arrayImplements.toString());
+        System.out.println(arrayImplements.get(0));
+        arrayImplements.remove(0);
+        System.out.println(arrayImplements.toString());
+        System.out.println(arrayImplements.size());
 
         arrayImplements.clear();
         System.out.println(arrayImplements.iterator().hasNext());
         System.out.println(arrayImplements.toString());
+
 
     }
 
@@ -45,6 +51,8 @@ public class ArrayImpl  implements Array {
     @Override
     public void set(int index, Object element) {
 
+        if ((index + 1) <= objectArrayList.size())
+
         objectArrayList.set(index, element);
 
     }
@@ -52,28 +60,32 @@ public class ArrayImpl  implements Array {
     @Override
     public Object get(int index) {
 
-        if(objectArrayList.size() >= index) {
+
+        if((index + 1) <= objectArrayList.size()) {
+
             return objectArrayList.get(index);
 
         }
-        return null;
+               return null;
     }
 
     @Override
-    public int indexOf(Object element) {
+    public int indexOf(Object element) throws NoSuchElementException {
 
-        if (!objectArrayList.isEmpty()){
 
-            for(Object arrayObject : objectArrayList){
+            if (!objectArrayList.isEmpty()){
 
-                if(arrayObject.equals(element)){
+                for(Object arrayObject : objectArrayList){
 
-                    return objectArrayList.indexOf(arrayObject);
+                    if(arrayObject.equals(element)){
+
+                        return objectArrayList.indexOf(arrayObject);
+                    }
                 }
             }
-        }
 
             return -1;
+
     }
 
     @Override
@@ -115,25 +127,20 @@ public class ArrayImpl  implements Array {
         @Override
         public boolean hasNext() {
 
-
                 return objectArrayList.iterator().hasNext();
         }
 
         @Override
         public Object next() {
 
-            if (hasNext()){
-              objectArrayList.iterator().next();
-            }
-
-            return null;
+            return objectArrayList.iterator().next();
         }
 
         @Override
         public void remove() {
-            this.remove();
-            //Iterator.super.remove(); ????? Проверить может тут не remove() a clear()
-            // большой Вопрос тут он должен удалять последний елемент візваній итератором
+            objectArrayList.iterator().remove();
+           //Iterator.super.remove(); //????? Проверить может тут не remove() a clear()
+            // большой Вопрос тут он должен удалять последний елемент вызваный итератором
         }
 
 
